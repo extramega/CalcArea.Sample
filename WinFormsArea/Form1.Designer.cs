@@ -91,7 +91,6 @@
             this.triangleInfo.Location = new System.Drawing.Point(15, 183);
             this.triangleInfo.Multiline = true;
             this.triangleInfo.Name = "triangleInfo";
-            this.triangleInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.triangleInfo.Size = new System.Drawing.Size(422, 58);
             this.triangleInfo.TabIndex = 17;
             // 
@@ -206,7 +205,6 @@
             this.circleInfo.Location = new System.Drawing.Point(13, 118);
             this.circleInfo.Multiline = true;
             this.circleInfo.Name = "circleInfo";
-            this.circleInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.circleInfo.Size = new System.Drawing.Size(433, 58);
             this.circleInfo.TabIndex = 15;
             // 

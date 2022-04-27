@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CalcArea
+﻿namespace CalcArea
 {
     public class Triangle : IFigure
     {
@@ -18,11 +16,17 @@ namespace CalcArea
             C = c;
         }
 
-        public virtual double Area()
+        public double Area()
         {
             var p = (A + B + C) / 2;
             var s = Math.Sqrt(p * (p - A) * (p - B) * (p - C));
             return s;
+        }
+
+        public bool IsRectangular()
+        {
+            double[] ar = new double[] { A, B, C }.OrderBy(x => x).ToArray();
+            return Math.Pow(ar[2], 2) == Math.Pow(ar[0], 2) + Math.Pow(ar[1], 2);
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CalcArea
+﻿namespace CalcArea
 {
     public class Circle : IFigure
     {
@@ -15,7 +13,7 @@ namespace CalcArea
             Radius = radius;
         }
 
-        public virtual double Area()
+        public double Area()
         {
             var s = Math.PI * Math.Pow(Radius, 2);
             return s;

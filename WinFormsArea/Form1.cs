@@ -70,6 +70,7 @@ namespace WinFormsArea
                 triangleA.Text = a.ToString();
                 triangleB.Text = b.ToString();
                 triangleC.Text = c.ToString();
+                triangleInfo.Text = t.IsRectangular() ? "Треугольник прямоугольный" : "";
             }
             catch (Exception ex)
             {
