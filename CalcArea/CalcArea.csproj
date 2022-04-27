@@ -13,8 +13,6 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <NeutralLanguage>ru</NeutralLanguage>
     <Version>1.0.1</Version>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://www.nuget.org/packages/Extramega.CalcArea.Sample</PackageProjectUrl>
   </PropertyGroup>
 
