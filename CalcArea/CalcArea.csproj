@@ -1,13 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Authors>extramega</Authors>
+    <Authors>Extramega</Authors>
     <Description>Project for calculating the area of ​​various figures</Description>
     <PackageTags>Figure area</PackageTags>
-    <PackageId>$(AssemblyName)Sample</PackageId>
+    <PackageId>Extramega.CalcArea.Sample</PackageId>
+    <Product>CalcArea.Sample</Product>
   </PropertyGroup>
 
 </Project>
