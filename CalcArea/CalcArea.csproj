@@ -9,6 +9,7 @@
     <PackageTags>Figure area</PackageTags>
     <PackageId>Extramega.CalcArea.Sample</PackageId>
     <Product>CalcArea.Sample</Product>
+    <RepositoryUrl>https://github.com/extramega/CalcArea.Sample</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
