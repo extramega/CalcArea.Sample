@@ -10,6 +10,12 @@
     <PackageId>Extramega.CalcArea.Sample</PackageId>
     <Product>CalcArea.Sample</Product>
     <RepositoryUrl>https://github.com/extramega/CalcArea.Sample</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <NeutralLanguage>ru</NeutralLanguage>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\LICENSE" Pack="true" PackagePath=""/>
+    <None Include="..\README.md" Pack="true" PackagePath=""/>
+  </ItemGroup>
 </Project>
