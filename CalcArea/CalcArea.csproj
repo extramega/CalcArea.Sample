@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>extramega</Authors>
+    <Description>Project for calculating the area of ​​various figures</Description>
+    <PackageTags>Figure area</PackageTags>
+    <PackageId>$(AssemblyName)Sample</PackageId>
+  </PropertyGroup>
+
+</Project>
