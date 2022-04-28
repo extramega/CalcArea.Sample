@@ -11,13 +11,11 @@
     <Product>CalcArea.Sample</Product>
     <RepositoryUrl>https://github.com/extramega/CalcArea.Sample</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <NeutralLanguage>ru</NeutralLanguage>
     <Version>1.0.1</Version>
     <PackageProjectUrl>https://www.nuget.org/packages/Extramega.CalcArea.Sample</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\LICENSE" Pack="true" PackagePath="" />
-    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>
