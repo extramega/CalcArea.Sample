@@ -1,21 +1,17 @@
 ﻿namespace CalcArea
 {
-    public class Figure : IFigure
+    /// <summary>Класс для вычисления площади фигуры без знания типа фигуры в compile-time</summary>
+    public static class Figure
     {
-        public IFigure Shape { get; private set; }
-        public Figure(object figure)
+        /// <summary>Вычисление площади фигуры</summary>
+        /// <typeparam name="T">Тип фигуры</typeparam>
+        /// <param name="figure">Объект фигуры</param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public static double Area<T>(T figure) where T : IFigure?
         {
-            if (figure is Circle c)
-                Shape = c;
-            else if (figure is Triangle t)
-                Shape = t;
-            else
-                throw new ArgumentException("Фигура не определена");
-        }
-
-        public double Area()
-        {
-            return Shape.Area();
+            if (figure == null)
+                throw new ArgumentNullException(nameof(figure));
+            return figure.Area();
         }
     }
 }

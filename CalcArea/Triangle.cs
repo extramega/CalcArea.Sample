@@ -1,10 +1,15 @@
 ﻿namespace CalcArea
 {
+    /// <summary>Класс для вычисления площади треугольника по трем сторонам</summary>
     public class Triangle : IFigure
     {
+        /// <summary>Сторона треугольника</summary>
         public double A { get; private set; }
+        /// <summary>Сторона треугольника</summary>
         public double B { get; private set; }
+        /// <summary>Сторона треугольника</summary>
         public double C { get; private set; }
+        /// <summary>Конструктор для создания сущности с проверкой на корректность входных параметров</summary>
         public Triangle(double a, double b, double c)
         {
             if (a < 0 || b < 0 || c < 0)
@@ -16,6 +21,7 @@
             C = c;
         }
 
+        /// <summary>Вычисление площади треугольника</summary>
         public double Area()
         {
             var p = (A + B + C) / 2;
@@ -23,6 +29,7 @@
             return s;
         }
 
+        /// <summary>Проверка на то, является ли треугольник прямоугольным</summary>
         public bool IsRectangular()
         {
             double[] ar = new double[] { A, B, C }.OrderBy(x => x).ToArray();
